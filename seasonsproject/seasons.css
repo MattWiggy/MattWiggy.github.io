@@ -1,0 +1,342 @@
+html, body{
+  margin: 0;
+  pading: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+margin: 0 auto;
+width: 75%;
+}
+
+header, nav, section, footer{
+  background: white;
+  margin: 10px;
+}
+header{
+  background-color: tan;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.fall header{
+  background-color: #EA5C2B;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.winter header{
+  background-color: #051367;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.summer header{
+  background-color: #3DB2FF;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.spring header{
+  background-color: #65C18C;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+nav{
+  background-color: brown;
+  padding: 10px;
+  text-align: center;
+}
+.spring nav{
+  background-color: #C1F4C5;
+  padding: 10px;
+  text-align: center;
+}
+.winter nav{
+  background-color: #5D8BF4;
+  padding: 10px;
+  text-align: center;
+}
+.fall nav{
+  background-color: #F6D860;
+  padding: 10px;
+  text-align: center;
+}
+.summer nav{
+  background-color: #FFB740;
+  padding: 10px;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav a:hover{
+  background-color: maroon;
+  margin: 0;
+}
+.fall nav a:hover{
+  background-color: #FF7F3F;
+  margin: 0;
+}
+.spring nav a:hover{
+  background-color: #FFBED8;
+  margin: 0;
+}
+.summer nav a:hover{
+  background-color: #FEE440;
+  margin: 0;
+}
+.winter nav a:hover{
+  background-color: #2D31FA;
+  margin: 0;
+}
+section{
+  background-color: #87290B;
+  overflow: auto;
+}
+.fall section{
+  background-color: green;
+  overflow: auto;
+}
+.spring section{
+  background-color: green;
+  overflow: auto;
+}
+.summer section{
+  background-color: #FEE440;
+  overflow: auto;
+}
+.winter section{
+  background-color: #DFF6FF;
+  overflow: auto;
+}
+aside{
+  background-color: #87290B;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+.fall aside{
+  background-color: green;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+.spring aside{
+  background-color: green;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+.summer aside{
+  background-color: #FEE440;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+.winter aside{
+  background-color: #DFF6FF;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+aside a{
+color: white;
+text-decoration: none;
+width: 100%;
+display: inline-block;
+padding: 10px 10px 10px 30px;
+}
+.winter aside a{
+color: black;
+text-decoration: none;
+width: 100%;
+display: inline-block;
+padding: 10px 10px 10px 30px;
+}
+.summer aside a{
+color: black;
+text-decoration: none;
+width: 100%;
+display: inline-block;
+padding: 10px 10px 10px 30px;
+}
+aside a:hover{
+  background-color: #870B18;
+}
+.summer aside a:hover{
+  background-color: yellow;
+}
+.winter aside a:hover{
+  background-color: lightblue;
+}
+
+aside li{
+  list-style-type: none;
+}
+aside ul{
+  padding: 0px;
+  margin: 0px;
+}
+article{
+  background-color: #F7D39F;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+.fall article{
+  background-color: #CC9544;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+.spring article{
+  background-color: #E4AEC5;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+.summer article{
+  background-color: #FFF9B6;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+.winter article{
+  background-color: #B1D0E0;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+footer{
+  background-color: brown;
+  text-align: center;
+  padding: 2%;
+}
+.fall footer{
+  background-color: #A6CF98;
+  text-align: center;
+  padding: 2%;
+}
+.spring footer{
+  background-color: plum;
+  text-align: center;
+  padding: 2%;
+}
+.summer footer{
+  background-color: #ECDBBA;
+  text-align: center;
+  padding: 2%;
+}
+.winter footer{
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 2%;
+}
+.yesbird{
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.pumpkin{
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.seasons{
+  width: 45%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.summer2{
+  width: 45%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.winter2{
+  width: 45%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.fall{
+ background-image: url("leaves2.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+background-size: 100%;
+}
+.spring{
+ background-image: url("spring.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+background-size: 100%;
+}
+.summer{
+ background-image: url("summer3.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+background-size: 100%;
+}
+.winter{
+ background-image: url("winter4.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+background-size: 100%;
+}
+.spring2{
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+.home{
+ background-image: url("4seasons3.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+background-size: 100%;
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap{
+    width: 100%;
+  }
+  aside{
+    text-align: center;
+  }
+  aside a{
+    padding: 10px;
+  }
+  nav li{
+    display: block;
+  }
+  nav a{
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover{
+    background-color: transparent;
+  }
+  aside, article{
+    float: none;
+    width: 92%;
+  }
+}
