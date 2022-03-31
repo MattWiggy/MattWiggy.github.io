@@ -15,7 +15,7 @@ header, nav, section, footer{
   margin: 10px;
 }
 header{
-  background-color: tan;
+  background-color: #e2cb53;
   color: white;
   text-align: center;
   font-size: 40px;
@@ -50,7 +50,7 @@ header{
   padding: 20px;
 }
 nav{
-  background-color: brown;
+  background-color: #7a0b7a;
   padding: 10px;
   text-align: center;
 }
@@ -90,7 +90,7 @@ nav ul{
   padding: 0;
 }
 nav a:hover{
-  background-color: maroon;
+  background-color: #560d56;
   margin: 0;
 }
 .fall nav a:hover{
@@ -110,7 +110,7 @@ nav a:hover{
   margin: 0;
 }
 section{
-  background-color: #87290B;
+  background-color: #e2cb53;
   overflow: auto;
 }
 .fall section{
@@ -130,7 +130,7 @@ section{
   overflow: auto;
 }
 aside{
-  background-color: #87290B;
+  background-color: #7a0b7a;
   width: 25%;
   float: left;
   padding: 2% 0 0 0;
@@ -181,13 +181,19 @@ display: inline-block;
 padding: 10px 10px 10px 30px;
 }
 aside a:hover{
-  background-color: #870B18;
+  background-color: #560d56;
 }
 .summer aside a:hover{
   background-color: yellow;
 }
 .winter aside a:hover{
   background-color: lightblue;
+}
+.fall aside a:hover{
+  background-color: darkgreen;
+}
+.spring aside a:hover{
+  background-color: darkgreen;
 }
 
 aside li{
@@ -198,7 +204,7 @@ aside ul{
   margin: 0px;
 }
 article{
-  background-color: #F7D39F;
+  background-color: #e2cb53;
   width: 67%;
   float: right;
   padding: 2% 4%;
@@ -228,7 +234,7 @@ article{
   padding: 2% 4%;
 }
 footer{
-  background-color: brown;
+  background-color: #7a0b7a;
   text-align: center;
   padding: 2%;
 }
